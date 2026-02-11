@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Hyuseins Portfolio</title>
+  <link rel="stylesheet" href="css/style1.css"" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="brand">
+        <span>Alex Hyuseins</span>
+      </div>
+
+      <ul class="nav-links">
+        <li class="selected"><a href="index.html">Home</a></li>
+        <li><a href="About_me.html">About Me</a></li>
+        <li><a href="Contact_me.html">Contact Me</a></li>
+        <li><a href="Projects_done.html">L2 Course</a></li>
+        <li><a href="Resume.html">Resume</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hello there my name is Alex👋</h1>
+        <p class="subtitle">
+          I’m building my portfolio to showcase my projects, skills, and learning journey along with using this portfolio as a way to put my self out there so employers can find me.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn" href="about.html">About Me</a>
+          <a class="btn btn-outline" href="l2course.html">L2 Course</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="Images/me.jpg"
+          width="220"
+          alt="Alex"
+        />
+      </div>
+    </section>
+
+    <section class="highlights">
+      <h2>What you’ll find on my portfolio</h2>
+      <ul>
+        <li>My completed projects that are done + along with screenshots</li>
+        <li>Skills and tools I’m learning</li>
+        <li>Course work and achievements</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Alex Hyuseins. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
